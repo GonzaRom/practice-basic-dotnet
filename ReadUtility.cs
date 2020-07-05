@@ -28,7 +28,8 @@ namespace Array_and_List
             var number = -1;
             try
             {
-                number = Int32.Parse(toParse);
+                //number = Int32.Parse(toParse);
+                number = Convert.ToInt32(toParse);
             }
             catch (Exception e)
             {
