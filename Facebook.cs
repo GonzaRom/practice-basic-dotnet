@@ -12,10 +12,7 @@ namespace Array_and_List
         public static string CheckLikability(int count, List<string> namesList)
         {
             if ((namesList == null) || (count > namesList.Count)) return " ";
-
-            else
-            {
-                switch (count)
+            switch (count)
                 {
                     case 1:
                         return namesList[0] + " likes your post.";
@@ -30,7 +27,6 @@ namespace Array_and_List
                         else return "";
                     }
                 }
-            }
         }
     }
 }
